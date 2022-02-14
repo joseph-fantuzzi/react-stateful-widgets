@@ -7,8 +7,8 @@ import Moods from "./components/Moods";
 import Spinner from "./components/Spinner";
 import Squares from "./components/Squares";
 import Programmers from "./components/Programmers";
-import ToDo from "./components/Todos";
-import Tictactoe from "./components/Tictactoe";
+import ToDo from "./components/ToDos";
+import TicTacToe from "./components/Tic";
 
 render(
   <>
@@ -19,7 +19,7 @@ render(
     <Squares />
     <Programmers />
     <ToDo />
-    <Tictactoe />
+    <TicTacToe />
   </>,
   document.querySelector("#root")
 );
